@@ -2,8 +2,8 @@ import streamlit as st
 from taibun import Converter
 
 # 设置页面标题
-st.set_page_config(page_title="Taibun 闽南语字音转换器", page_icon="🗣️💬")
-st.title("闽南语汉字-读音转写转换")
+st.set_page_config(page_title="闽南语泉漳组字音转换器", page_icon="🗣️💬")
+st.title("闽南语泉漳组汉字-读音转写转换")
 
 # 创建侧边栏选项
 st.sidebar.header("转换设置")
