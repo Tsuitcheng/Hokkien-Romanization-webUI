@@ -13,7 +13,7 @@ accent_label = st.sidebar.selectbox("选择口音", list(dialect_mapping.keys())
 dialect_code = dialect_mapping[accent_label]
 
 # 输入框
-text_input = st.text_area("请输入闽南语汉字：", "你好，你食饱未？")
+text_input = st.text_area("请输入汉字形式的闽南语对应文段：", "你好，你食饱未？")
 
 # 转换逻辑
 if st.button("开始转换"):
